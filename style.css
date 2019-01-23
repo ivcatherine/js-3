@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 150px;
+}
+.tasks{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    font-size: 30px;
+    margin: 10px;
+}
+.deadline{
+    color: #ffffff;
+    background-color: #12694f;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-left: 3vw;
+}
+.check{
+    margin-right: 1vw;
+}
+.delete{
+    margin-left: 1vw;
+    width: 2vh;
+    height: auto;
+    cursor: pointer;
+}
+form{
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 20px;
+}
+.text{
+    width: 20vw;
+    border: 0;
+    border-bottom: 1px solid  #aaaaaa;
+}
+
+.date{
+    margin-left: 1vw;
+}
+.add{
+    cursor: pointer;
+    margin-left: 1vw;
+}
